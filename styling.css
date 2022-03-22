@@ -1,3 +1,28 @@
+
+/* background code credited in references page */
+body {
+  background:
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#ffffff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px,
+                    #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px,
+                    #a4a4a4 77px, transparent 78px, transparent 109px),
+  #fff;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+
+/*
+original: added margin-bottom to height of footer to give
+space to footer when scrolling down
++ 20px additional to make sure everything isn't so cluttered
+*/
+  margin: 0 0 120px 0;
+}
+
+/*
+if not allowed to use external code for background:
 body {
   background-color: #E4DAC2;
   margin: 0;
@@ -5,19 +30,17 @@ body {
 img {
   width: 100%;
 }
+*/
+
 /* Headers Specific CSS */
 .h_create {
   width: 450px;
   margin: 50px auto;
-  padding: 5px;
   background-color: #C4BDAC;
   border: groove 6px #999999;
-}
-.h {
   font-size: 35px;
-  width: 100%;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
 }
 .fix_img {
   position: fixed;
@@ -66,15 +89,60 @@ img {
   border: groove 6px #999999;
   width: 800px;
   margin: auto;
-  padding: -1px;
   font-size: 20px;
   background-color: #C4BDAC;
 }
+.pi_column_img {
+  width: 50%;
+  border: groove 2px darkgrey;
+  padding: 0 2px;
+}
 .pi_column {
   width: 50%;
-  border: solid 1.5px black;
+  padding: 2px;
 }
 
 /* Footer */
 footer {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 75px;
+  border: groove 6px #999999;
+  border-left: none;
+  border-bottom: none;
+  background: #7C7D81;
+}
+.f_column_create_indexpage {
+  display: flex;
+  height: 100%;
+  text-align: center;
+}
+.f_column_create {
+  display: flex;
+  height: 100%;
+  text-align: center;
+}
+.f_column_create_2 {
+  display: flex;
+  height: 100%;
+  width: 70%;
+}
+.f_column {
+  width: 30%;
+  padding: 0 0 0 4px;
+}
+.f_column_socials {
+  display: block;
+  margin: auto;
+  width: 34%;
+  padding: 0 0 0 10px;
+}
+.social_img {
+  margin: auto;
+  padding-top: 13px;
+  height: 50%;
+  width: 10%;
+  float: left;
 }
