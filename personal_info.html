@@ -4,20 +4,18 @@
     <meta charset="utf-8">
     <meta name="name:" content="Yousef">
     <meta name="instagram:" content="yfares2003">
-    <title>COSC1078_s3955987_Assignment1_index</title>
+    <title>COSC1078_s3955987_Assignment1_personal_info</title>
     <link rel="stylesheet" href="styling.css">
-    <style media="screen">
-      p {
-        text-align: center;
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=League+Gothic:wdth@75;100&family=Mukta&display=swap" rel="stylesheet">
   </head>
   <body>
-    <!-- Icon on Bottom Left Corner -->
+
+    <!-- Icon on Top Left Corner -->
     <div class="fix_img">
       <img src="images/personal_info_icon.png"
-      alt="fixed_personal_info" title="Personal Info"
-      style="width:50px">
+      alt="fixed_personal_info" title="Personal Info" style="width: 50px;">
     </div>
 
     <!-- Header -->
@@ -32,18 +30,17 @@
     </header>
 
     <main>
-      <div class="pi_columns_create">
+      <div class="g_columns_create">
 
-        <!-- Details + About me -->
-        <div class="pi_column">
-          <div id="details_color">
-            <h3>Details </h3>
-            <ul>
-              <li><strong>Name:</strong> <br>Yousef Fares</li>
-              <li><strong>Student ID:</strong> <br>s3955987</li>
-              <li><strong>Student Email:</strong> <br>s3955987@student.rmit.edu.au</li>
-            </ul>
-          </div>
+        <!-- q1: Details + About me -->
+        <div class="g_column">
+
+          <h3>Details </h3>
+          <ul>
+            <li><strong>Name:</strong> <br>Yousef Fares</li>
+            <li><strong>Student ID:</strong> <br>s3955987</li>
+            <li><strong>Student Email:</strong> <br>s3955987@student.rmit.edu.au</li>
+          </ul>
 
           <h3>A little bit about me</h3>
           <p>
@@ -71,43 +68,39 @@
         </div>
 
         <!-- face_img -->
-        <div class="pi_column_img">
-          <img id="pi_img" src="images/my_face.jpg" alt="my_face" title="Me :^)">
+        <div class="g_column_img">
+          <h4>Figure 1</h4>
+          <img class="g_img" src="images/my_face.jpg" alt="my_face" title="Me :^)">
         </div>
 
-      </div> <!-- / .pi_columns_create -->
+      </div> <!-- / .g_columns_create -->
 
-      <div class="pi_columns_create">
+      <!-- q2: Fun Fact -->
+      <div class="g_columns_create">
 
         <!-- Steam Screenshot -->
-        <div class="pi_column_img">
-          <img id="pi_img" src="images/war_thunder_ss_pi.png" alt="WT_ss" title="War Thunder">
+        <div class="g_column_img">
+          <h4>Figure 2</h4>
+          <img class="g_img" src="images/war_thunder_ss_pi.png" alt="WT_ss">
         </div>
 
         <!-- Fun Fact -->
-        <div class="pi_column">
+        <div class="g_column">
           <h3>Fun Fact</h3>
           <p>
-            I’m way too addicted to games. Recently managed to buy one of
-            those new Xbox’s and been playing CoD: Cold War a lot more
-            recently. I’ve sunk over 1400 hours into this game called War
-            Thunder and about 800 hours into CSGO. Do I have a problem?
-            Probably. Additionally, I love board games and Chess would have to
-            be my favorite. I’m not rated very high on Chess.com but I do enjoy
-            watching big brain plays and making some plays myself.
+            I’m way too addicted to games. Recently managed to buy one of those new Xbox’s and been playing CoD: Cold War<a class="reference" href="references.html">*1</a> a lot more recently. I’ve sunk over 1400 hours into this game called War Thunder<a class="reference" href="references.html">*2</a> and about 800 hours into CSGO<a class="reference" href="references.html">*3</a>. Do I have a problem? Probably. Additionally, I love board games and Chess would have to be my favorite. I’m not rated very high on this website I use called Chess.com<a class="reference" href="references.html">*4</a> but I do enjoy watching big brain plays and making some myself.
           </p>
         </div>
 
-      </div> <!-- / .pi_columns_create -->
+      </div> <!-- / .g_columns_create -->
     </main>
 
     <footer>
       <div class="f_column_create">
 
-        <!-- sections (index biggest) rest smaller (include icons) -->
+        <!-- return to Index page -->
         <div class="f_column">
           <h3><a href="index.html">Index</a></h3>
-
         </div>
 
         <!-- socials -->
@@ -130,8 +123,10 @@
             <img class="social_img" src="images/instagram_icon.png" alt="instgrm">
             <h3>yfares2003</h3>
           </div>
-        </div>
-      </div>
+
+        </div> <!-- / .f_column_create_2 -->
+
+      </div> <!-- / .f_column_create -->
     </footer>
 
   </body>
