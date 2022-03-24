@@ -1,19 +1,21 @@
 /* General CSS */
 body {
 
+  /* I changed the background color from #ffffff to #F4EEE1 to keep a consistent soft color scheme with the website */
   /* background code credited in references page */
   background:
     radial-gradient(black 3px, transparent 4px),
     radial-gradient(black 3px, transparent 4px),
-    linear-gradient(#ffffff 4px, transparent 0),
+    linear-gradient(#F4EEE1 4px, transparent 0),
     linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px,
                     #a4a4a4 76px, transparent 77px, transparent 109px),
     linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px,
                     #a4a4a4 77px, transparent 78px, transparent 109px),
-  #ffffff;
+  #F4EEE1;
   background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
   background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
   /* background code credited in references page */
+  /* I changed the background color from #ffffff to #F4EEE1 to keep a consistent soft color scheme with the website */
 
   margin: 0 0 120px 0;
   font-family: 'Hubballi', cursive;
@@ -58,17 +60,6 @@ h4 {
   height: 100%;
 }
 
-/*
-if not allowed to use external code for background:
-body {
-  background-color: #E4DAC2;
-  margin: 0;
-}
-img {
-  width: 100%;
-}
-*/
-
 /* Headers Specific CSS */
 .h_create {
   width: 450px;
@@ -104,7 +95,7 @@ img {
   text-align: center;
 }
 .mcolumns_create_b {
-  background-color: #F4EEE1;
+  background-color: #F3ECE7;
   display: flex;
   margin: auto;
 }
@@ -128,7 +119,7 @@ img {
 }
 .reference_block {
   font-size: 20px;
-  width: 600px;
+  width: 800px;
   margin: auto;
   background-color: #C4BDAC;
   border: groove 6px #999999;

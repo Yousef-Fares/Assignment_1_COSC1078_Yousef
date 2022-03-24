@@ -31,3 +31,8 @@ V1.3:
 - Decreased footer size a tad
 - Added Fonts
 - Fixed positioning of social media app icons on index's footer
+
+V1.31:
+- Background color changed from #999999 to #F4EEE1 --> fits the soft color scheme of the website
+- finished off references using Harvard style citation
+- Increased width of reference block page
